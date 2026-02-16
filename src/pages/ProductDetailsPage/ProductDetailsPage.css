@@ -1,0 +1,48 @@
+.details-card {
+    display: flex;
+    background: var(--white);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  
+  .details-card__image-side {
+    flex: 1;
+    background: #f8f9fa;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .details-card__image-side img { max-width: 100%; border-radius: 10px; }
+  
+  .details-card__info-side { flex: 1; padding: 40px; }
+  
+  .details-card__price-row { display: flex; align-items: center; margin: 20px 0; }
+  
+  .details-card__price { font-size: 2rem; font-weight: 800; color: var(--accent-blue); }
+  
+  .details-card__discount {
+    background: #ef4444;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .spec-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .btn-back {
+    background: var(--accent-blue);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }

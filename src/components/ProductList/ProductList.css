@@ -1,0 +1,12 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+  }
+  
+  .not-found {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    grid-column: 1 / -1;
+  }

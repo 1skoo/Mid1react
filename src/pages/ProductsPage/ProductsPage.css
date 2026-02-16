@@ -1,0 +1,17 @@
+.page-title { margin-bottom: 20px; }
+
+.search-wrapper {
+  position: relative;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.search-input:focus { border-color: var(--accent-blue); }
